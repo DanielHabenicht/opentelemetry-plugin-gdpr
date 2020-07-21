@@ -1,0 +1,15 @@
+{
+  "name": "opentelemetry-plugin-gdpr",
+  "version": "1.0.0",
+  "description": "Opentelemetry Plugin for specifiying runtime GDPR information to collect later on. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "opentelemetry",
+    "gdpr"
+  ],
+  "author": "Daniel Habenicht",
+  "license": "MIT"
+}
