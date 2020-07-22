@@ -1,6 +1,6 @@
 {
   "name": "opentelemetry-plugin-gdpr",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Opentelemetry Plugin for specifiying runtime GDPR information to collect later on. ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
