@@ -55,14 +55,15 @@ You can use the follwing environment variables or header attributes to provide t
 1. Header Attributes
 2. Environment Variables
 3. Code Configuration
-   |Header Attrbiute | Environment Variable | Code Configuration Property | Description |
-   |---|---|---|---|
-   |--- | `GDPR_LOCATION` | `location` | |
-   |`gdpr.ttl` | `GDPR_TTL` | `baseTTL` | |
-   | `gdpr.legalBasis` | `GDPR_LEGALBASIS` | `baseLegalBasis` | |
-   |`gdpr.legitimateInterest`|`GDPR_LEGITIMATEINTEREST`| `baseLegitimateInterest` | |
-   |`gdpr.automatedDecisionMaking`|`GDPR_AUTOMATEDDECISIONMAKING`|`baseAutomatedDecisionMaking`| |
-   |`gdpr.purpose`|`GDPR_PURPOSE`|`basePurpose`|
+
+| Header Attrbiute               | Environment Variable           | Code Configuration Property   | Description |
+| ------------------------------ | ------------------------------ | ----------------------------- | ----------- |
+| ---                            | `GDPR_LOCATION`                | `location`                    |             |
+| `gdpr.ttl`                     | `GDPR_TTL`                     | `baseTTL`                     |             |
+| `gdpr.legalBasis`              | `GDPR_LEGALBASIS`              | `baseLegalBasis`              |             |
+| `gdpr.legitimateInterest`      | `GDPR_LEGITIMATEINTEREST`      | `baseLegitimateInterest`      |             |
+| `gdpr.automatedDecisionMaking` | `GDPR_AUTOMATEDDECISIONMAKING` | `baseAutomatedDecisionMaking` |             |
+| `gdpr.purpose`                 | `GDPR_PURPOSE`                 | `basePurpose`                 |
 
 ### More Configuration Options
 
