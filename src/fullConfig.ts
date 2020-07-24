@@ -16,7 +16,7 @@ export const tracingFullConfiguration = (
       http: {
         enabled: true,
         path: '@opentelemetry/plugin-http',
-        ...GdprHttpPluginCustomAttributesFunction(configuration),
+        ...GdprHttpPluginCustomAttributesFunction(configuration, (span, request, response) => {}),
       },
     },
   });
